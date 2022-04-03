@@ -5,8 +5,7 @@ public enum Tipo {
 	
 	private int codigo;
 	private String nombre;
-	public Tipo(int codigo,String nombre) {
-		this.codigo = codigo;
-		this.nombre = nombre;
+	private Tipo(int cod) {
+		codigo = cod;
 	}
 }
